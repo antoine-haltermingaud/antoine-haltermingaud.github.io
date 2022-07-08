@@ -1,6 +1,6 @@
 :root {
-  --fs-xl: 5.5rem;
-  --fs-600: 1.15rem;
+  --fs-xl: 7.3vw;
+  --fs-600: 1.7vw;
   --fs-500: 1rem;
 }
 
@@ -16,14 +16,14 @@ body {
   background: url("../images/intro_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 45% 80%;
+  background-position: 53% 80%;
   height: 100vh;
   overflow: hidden;
 }
 
 .logo {
   position: absolute;
-  top: 7rem;
+  top: 6.5rem;
   left: 4rem;
   width: 5.5rem;
   height: auto;
@@ -31,7 +31,7 @@ body {
 
 .hero h1, h2,
 p {
-  margin: 1rem 1rem 0 3rem;
+  margin: 2rem 1rem 0 3rem;
   position: relative;
   top: 16rem;
 }
@@ -46,7 +46,7 @@ p {
   color: #9b9b9b;
   font-size: var(--fs-600);
   letter-spacing: 0.25rem;
-  font-weight: lighter;
+  font-weight: bold;
 }
 
 .lan_button {
@@ -70,15 +70,25 @@ p {
 }
 @media (max-width: 40em) {
   :root {
-    --fs-xl: 2.9rem;
-    --fs-600: 1rem;
+    --fs-xl: 15vw;
+    --fs-600: 5vw;
+    transform: scale(1);
   }
+}
+
+.me {
+  background-color: #141414;
 }
 
 .me_posing {
   margin-top: 3rem;
   height: 20rem; 
   width: auto; 
+}
+
+.me h2 {
+  position: relative;
+  bottom: rem;
 }
 
 .studies img {
