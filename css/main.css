@@ -76,8 +76,9 @@ p {
 }
 
 .me_posing {
-  width: 5.5rem;
-  height: auto;
+  margin-top: 3rem;
+  height: 20rem; 
+  width: auto; 
 }
 
 .studies img {
