@@ -16,24 +16,24 @@ body {
   background: url("../images/intro_img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 53% 80%;
+  background-position: 51.5% 80%;
   height: 100vh;
   overflow: hidden;
 }
 
 .logo {
   position: absolute;
-  top: 6.5rem;
-  left: 4rem;
-  width: 5.5rem;
+  top: 9rem;
+  left: 10.2vw;
+  width: 13rem;
   height: auto;
 }
 
 .hero h1, h2,
 p {
-  margin: 2rem 1rem 0 3rem;
+  margin: 1.5rem 1rem 0 3rem;
   position: relative;
-  top: 16rem;
+  top: 18rem;
 }
 
 .hero h1 {
@@ -72,7 +72,6 @@ p {
   :root {
     --fs-xl: 15vw;
     --fs-600: 5vw;
-    transform: scale(1);
   }
 }
 
@@ -81,7 +80,7 @@ p {
 }
 
 .me_posing {
-  margin-top: 3rem;
+  margin: 3rem 2rem ;
   height: 20rem; 
   width: auto; 
 }
