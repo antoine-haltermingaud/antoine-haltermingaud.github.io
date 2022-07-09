@@ -13,6 +13,12 @@ body {
   background-color: #141414;  
 }
 
+p,
+h2,
+article {
+  color: white;
+}
+
 .hero {
   background: url("../images/intro_img.jpg");
   background-repeat: no-repeat;
@@ -50,7 +56,7 @@ p {
   font-weight: bold;
 }
 
-button {
+.lan_button button {
   padding: 0.35em 1.2em;
   border-radius: 5px;
   font-weight: bold;
@@ -65,7 +71,7 @@ button {
   left: 50px;
 }
 
-.lan_button :hover {
+button:hover {
   color: lightslategray;
 }
 
@@ -73,6 +79,9 @@ button {
   :root {
     --fs-xl: 15vw;
     --fs-600: 5vw;
+  }
+  .learn-more {
+    left: 50px;
   }
 
 
@@ -107,12 +116,17 @@ button {
   margin-top: 2rem;
 }
 
-
-p,
-h2,
-article {
-  color: white;
+.learn-more {
+  position: relative;
+  top: 350px
+  
 }
+
+.learn-more button {
+  padding: 1rem 2rem;
+  font-weight: bold;
+}
+
 
 .contact {
   color: white;
